@@ -13,4 +13,4 @@ docker run -it docker-compression [Dockerfile or Dockerfile.compressed]
 
 ## Idea
 
-Used the zstd compression program, after blank line removal, comment removal, removing of line continuations ("\"). Does also lowercase the commands and shorten them to 1-3 chars.
+Used the zstd compression program, after blank line removal, comment removal, removing of line continuations ("\\" at the end of a line). Does also lowercase the commands and shorten them to 1-3 chars.
